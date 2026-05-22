@@ -16,9 +16,9 @@ from qgis.core import (
 # =====================================================
 # ROOT FOLDER (SEARCHES ALL SUBDIRECTORIES)
 # =====================================================
-
+# SOURCED FROM https://github.com/generalpiston/geojson-us-city-boundaries
 root_folder = (
-    r"C:\Users\Richa\Downloads\geojson-us-city-boundaries\cities"
+    r"C:\TEMP\geojson-us-city-boundaries\cities"
 )
 
 # =====================================================
@@ -26,7 +26,7 @@ root_folder = (
 # =====================================================
 
 output_gpkg = (
-    r"C:\path\to\output\springfield_features.gpkg"
+    r"C:\TEMP\springfield_features.gpkg"
 )
 
 output_layer_name = "Springfield_Cities"
